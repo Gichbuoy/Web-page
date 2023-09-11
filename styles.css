@@ -13,6 +13,7 @@ body {
 .container {
     margin: 50px auto;
     max-width: 600px;
+    height: 75vh;
     text-align: center;
     background-color: #FFF;
     width: 30vw;
@@ -24,15 +25,32 @@ body {
 img {
     width: 150px;
     border-radius: 50%;
-    margin: auto;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-bottom: auto;
 }
 
 a {
-    display: block;
+    /* display: block; */
     margin-top: 20px;
-    color: aqua;
+    color: purple;
     text-decoration: none;
 }
 a:hover{
-    background-color: purple;
+    background-color: #801818;
+}
+[data-testid="currentDayOfTheWeek"] {
+    font-weight: bold;
+}
+
+[data-testid="myTrack"] {
+    font-weight: 800;
+}
+
+[data-testid="githubURL"] {
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
 }
